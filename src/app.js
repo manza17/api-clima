@@ -8,7 +8,7 @@ app.use(express.urlencoded({extended:false}));
 app.use(express.json());
 
 //direccionamiento de rutas
-app.use('/api',index);
+app.use('/v1',index);
 
 const port = process.env.PORT;
 

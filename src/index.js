@@ -5,7 +5,7 @@ const localizacion = require('../services/localizacion');
 const clima = require('../services/clima');
 
 
-app.get('/v1',(req,res)=>{
+app.get('/',(req,res)=>{
     res.status(200).json({"msg":"Bienvenido"})
 })
 
