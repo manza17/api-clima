@@ -4,7 +4,7 @@ const api = supertest(app)
 
 describe('GET /v1',()=>{
     test('response status 200',async ()=>{
-        const response = await api.get('/v1').send();
+        const response = await api.get('/').send();
         expect(response.statusCode).toEqual(200)
     })    
 })
