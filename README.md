@@ -34,6 +34,9 @@ Abrir git bash e ir al directorio donde se desea clonar el proyecto y escribir e
   
   **APPID**: ID del servicio API clima de [open weather map](https://openweathermap.org/api)
   
+  ##### Dejo mi ID por las dudas.
+  *APPID=94e45d51ff1151396a8b4b596456a4e6* 
+  
 ## API REST
 
 ### Ruta base
